@@ -3,7 +3,11 @@
 This quickstart uses my React-Boilerplate with Webpack and the CLMtrackr library to perform facial recognition and detection. Be sure to check out the 
 `containers/Home/index.js` which contains an example of face tracking. 
 
-![screenshot](http://h4z.it/Image/13741e_clmtrackss.PNG)
+![screenshot](http://h4z.it/Image/7315dd_clmtrackss.PNG)
+
+## Requirements
+* NodeJS 8+
+* NPM 4+
 
 ## Getting Started
 To quickly get started, fork this repo and clone it onto your local computer. Then run `npm install` to install all of the necessary libraries.

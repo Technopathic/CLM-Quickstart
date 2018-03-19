@@ -13,8 +13,8 @@ import './style.css';
 import './styleM.css';
 
 export default class Home extends React.PureComponent {
-  constructor()
-  {
+
+  constructor() {
     super();
     this.state = {
       vid:"",
@@ -28,14 +28,12 @@ export default class Home extends React.PureComponent {
     }
   }
 
-  componentWillMount()
-  {
+  componentWillMount() {
     this.ctrack = new clm.tracker();
     this.ctrack.init();
   }
 
-  componentDidMount()
-  {
+  componentDidMount() {
     let vid = document.getElementById('videoel');
     let overlay = document.getElementById('overlay');
     let overlayCC = overlay.getContext('2d');
@@ -153,8 +151,8 @@ export default class Home extends React.PureComponent {
   }
 }
 
-// helper functions
 
+// Helper Functions
 /**
  * Provides requestAnimationFrame in a cross browser way.
  */
