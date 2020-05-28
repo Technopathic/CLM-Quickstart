@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ScoreListing from '../components/ScoreListing.js'
+import ScoreListing from '../components/ScoreListing'
+
+
 class ScoresContainer extends React.Component {
   state = {
     scores: [],
@@ -20,15 +22,22 @@ class ScoresContainer extends React.Component {
     return found.user_name
   }
   render() {
+    const sortedScores = this.state.scores.sort((a,b) => a.value > b.value? -1 :1)
+
+    // console.log("ScoresContainer State=>", this.state.scores)
+    
     return(
       <div>
-      <h1>You are on the high scores page</h1>
-      {this.state.scores.map(score => 
-        <ScoreListing 
-        key={score.id} 
-        {...score}
-        userName={this.getUsername(score.user_id)}
+        <h1>You are on the high scores page</h1>
+        <div className='card-container'>
+        {sortedScores.map(score => 
+        <ScoreListing
+          key={score.id}
+          name={this.getUsername(score.user_id)}
+          value={score.value}
         />)}
+        </div>
+    
         <Link to='/'><button className="eightbit-btn">Home</button></Link>
       </div>
     )
