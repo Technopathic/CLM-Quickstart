@@ -1,3 +1,4 @@
+
 .logo{
     font-family: 'Press Start 2P', cursive;
     background: #92CD41;
@@ -9,6 +10,7 @@
     margin: auto;
     width: 80%;
     padding: 10px;
+    
   }
   .container{
     margin: center;
@@ -18,11 +20,24 @@
   .logo{
     margin-bottom:3em;
   }
+
+  .card-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    grid-template-columns: auto auto auto;
+    box-shadow: inset -4px -4px 0px 0px #E8C1A7;
+    text-align: center;
+    background-color: #ffe4c4;
     transition: 0.3s;
-    border-radius: 5px;
-    width: 200px;
+    outline-color: black;
+    outline-width: 4px;
+    outline-style: solid;
+    width: 130px;
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
     font-family: 'Press Start 2P', cursive;
   }
   .eightbit-btn {
@@ -132,6 +147,7 @@
     outline-width: 6px;
   }
 
+
   .eightbit-btn-menu {
     background: #92CD41;
     display: inline-block;
@@ -176,4 +192,17 @@
     width:90%;
     margin-bottom: 3em;
     margin-top:2em;
+
+  .instructions {
+    font-family: 'Press Start 2P', cursive;
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+    
+  }
+
+  .instructions-list {
+    margin: auto;
+    padding: 50px;
+
   }
