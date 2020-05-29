@@ -13,6 +13,10 @@
   .container{
     margin: center;
     text-align: center;
+    
+  }
+  .logo{
+    margin-bottom:3em;
   }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -126,4 +130,50 @@
     outline: black;
     outline-style: solid;
     outline-width: 6px;
+  }
+
+  .eightbit-btn-menu {
+    background: #92CD41;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none; 
+    color: white;
+    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    outline: black;
+    outline-style: solid;
+    outline-width: 6px;
+    width: 180px;
+    height:80px;
+  }
+  button.eightbit-btn-menu:hover{
+    background: #4AA52E;
+    box-shadow: inset -6px-6px 0px 0px rgb(46, 48, 165);
+  }
+  button.eightbit-btn-menu:active{
+    background: #76c442;
+    box-shadow: inset -6px -6px 0px 0px #4AA52E;
+  }
+
+  #navBar{
+   list-style-type:none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ 
+  }
+
+  #navBar li{
+    float: left;
+  }
+
+  #center{
+    margin:auto;
+    width:90%;
+    margin-bottom: 3em;
+    margin-top:2em;
   }
