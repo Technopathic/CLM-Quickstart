@@ -1,0 +1,208 @@
+
+.logo{
+    font-family: 'Press Start 2P', cursive;
+    background: #92CD41;
+    border-radius: 5%;
+    padding: 20px;
+    width: 100%;
+  }
+  .App{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    
+  }
+  .container{
+    margin: center;
+    text-align: center;
+    
+  }
+  .logo{
+    margin-bottom:3em;
+  }
+
+  .card-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .card {
+    grid-template-columns: auto auto auto;
+    box-shadow: inset -4px -4px 0px 0px #E8C1A7;
+    text-align: center;
+    background-color: #ffe4c4;
+    transition: 0.3s;
+    outline-color: black;
+    outline-width: 4px;
+    outline-style: solid;
+    width: 130px;
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  .eightbit-btn {
+    background: #92CD41;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin: 3px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none; 
+    color: white;
+    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    outline: black;
+    outline-style: solid;
+    outline-width: 6px;
+    width: 300px;
+  }
+  button.eightbit-btn:hover{
+    background: #4AA52E;
+    box-shadow: inset -6px-6px 0px 0px rgb(46, 48, 165);
+  }
+  button.eightbit-btn:active{
+    background: #76c442;
+    box-shadow: inset -6px -6px 0px 0px #4AA52E;
+  }
+  .timer{
+    width: 275px;
+    height: 125px;
+    outline: black;
+    outline-style: solid;
+    outline-width: 1px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background: #92CD41;
+    color: white;
+    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    outline: black;
+    outline-style: solid;
+    outline-width: 6px;
+  }
+  .timer-text{
+    padding: 50px;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-areas:
+    '   header header'
+    '   main video'
+    '   main timer'
+    '   main score'
+    '   main start';
+    grid-gap: 20px;
+    background-color: rgb(181, 211, 235);
+    padding: 10px;
+    width:800px
+  }
+  .game-canvas{
+    grid-area: main;
+    width: 600px;
+    height: 600px
+  }
+  .video-display{
+      grid-area:video;
+  }
+  .timer-display{
+    grid-area: timer;
+  }
+  .score-display{
+    grid-area: score;
+  }
+  .score{
+    width: 275px;
+    height: 125px;
+    outline: black;
+    outline-style: solid;
+    outline-width: 1px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background: #92CD41;
+    color: white;
+    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    outline: black;
+    outline-style: solid;
+    outline-width: 6px;
+  }
+  .score-text{
+    padding: 50px;
+  }
+  .start-display{
+    grid-area: start;
+  }
+  .start{
+    width: 275px;
+    height: 125px;
+    outline: black;
+    outline-style: solid;
+    outline-width: 1px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background: #92CD41;
+    color: white;
+    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    outline: black;
+    outline-style: solid;
+    outline-width: 6px;
+  }
+
+
+  .eightbit-btn-menu {
+    background: #92CD41;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none; 
+    color: white;
+    box-shadow: inset -4px -4px 0px 0px #4AA52E;
+    outline: black;
+    outline-style: solid;
+    outline-width: 6px;
+    width: 180px;
+    height:80px;
+  }
+  button.eightbit-btn-menu:hover{
+    background: #4AA52E;
+    box-shadow: inset -6px-6px 0px 0px rgb(46, 48, 165);
+  }
+  button.eightbit-btn-menu:active{
+    background: #76c442;
+    box-shadow: inset -6px -6px 0px 0px #4AA52E;
+  }
+
+  #navBar{
+   list-style-type:none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ 
+  }
+
+  #navBar li{
+    float: left;
+  }
+
+  #center{
+    margin:auto;
+    width:90%;
+    margin-bottom: 3em;
+    margin-top:2em;
+
+  .instructions {
+    font-family: 'Press Start 2P', cursive;
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+    
+  }
+
+  .instructions-list {
+    margin: auto;
+    padding: 50px;
+
+  }

@@ -86,26 +86,6 @@
       "eventsource-polyfill"
     ]
   },
-  "jest": {
-    "collectCoverageFrom": [
-      "app/**/*.{js,jsx}",
-      "!app/*/RbGenerated*/*.{js,jsx}",
-      "!app/app.js",
-      "!app/routes.js"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "statements": 98,
-        "branches": 91,
-        "functions": 98,
-        "lines": 98
-      }
-    },
-    "moduleDirectories": [
-      "node_modules",
-      "app"
-    ]
-  },
   "dependencies": {
     "clmtrackr": "^1.1.2",
     "compression": "1.7.1",
@@ -114,10 +94,11 @@
     "immutable": "4.0.0-rc.9",
     "invariant": "2.2.2",
     "ip": "1.1.5",
-    "lodash": "4.17.5",
-    "minimist": "1.2.0",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
+    "lodash": "^4.17.15",
+    "matter-js": "^0.14.2",
+    "minimist": "^1.2.5",
+    "react": "16.13.0",
+    "react-dom": "^16.13.1",
     "react-helmet": "5.2.0",
     "react-router-dom": "^4.2.2",
     "whatwg-fetch": "2.0.3"
@@ -148,7 +129,8 @@
     "html-webpack-plugin": "2.30.1",
     "image-webpack-loader": "4.0.0",
     "imports-loader": "0.7.1",
-    "jest-cli": "22.2.1",
+    "jest": "22.4.4",
+    "jest-cli": "22.4.4",
     "ngrok": "2.2.25",
     "node-plop": "0.9.0",
     "null-loader": "0.1.1",

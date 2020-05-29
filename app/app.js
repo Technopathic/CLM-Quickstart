@@ -9,7 +9,7 @@ import App from 'containers/App';
 
 ReactDOM.render((
   <BrowserRouter>
-    <App/>
+    <App className='App'/>
   </BrowserRouter>
 ), document.getElementById('app'));
 
